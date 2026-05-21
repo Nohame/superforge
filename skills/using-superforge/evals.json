@@ -1,0 +1,21 @@
+{
+  "positive": [
+    "what can superforge do?",
+    "how do I use this plugin?",
+    "I want to build a Claude Code plugin but I don't know where to start",
+    "comment je commence avec superforge?",
+    "where do I begin?",
+    "c'est quoi superforge exactement?",
+    "give me an overview of the superforge workflow",
+    "by where do I begin to create a plugin?",
+    "je veux faire un plugin, comment ça marche superforge?",
+    "what's the recommended way to build a plugin with superforge?"
+  ],
+  "negative": [
+    "I want to build a plugin for reviewing PRs automatically",
+    "la spec est prête, on peut décomposer en skills maintenant",
+    "write the SKILL.md for the deploy-check skill",
+    "add a hook that runs before every commit in my plugin",
+    "publish my plugin to the marketplace"
+  ]
+}

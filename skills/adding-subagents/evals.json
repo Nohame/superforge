@@ -1,0 +1,21 @@
+{
+  "positive": [
+    "add a sub-agent that does a read-only security audit",
+    "I want a reviewer agent that runs independently from the main conversation",
+    "create a specialised agent for fact-checking the generated content",
+    "spawn an agent to handle the migration task in parallel",
+    "run this compliance check in a separate context so it has no memory of earlier work",
+    "je veux un agent isolé qui fait la revue de code sans voir le reste de la conversation",
+    "créer un sous-agent avec un toolset restreint pour auditer les fichiers de config",
+    "I need a fresh context to validate the output, isolated from the main agent",
+    "lance un agent en parallèle pour analyser les logs pendant qu'on continue le dev",
+    "I want an independent opinion on the architecture — spawn a separate agent for that"
+  ],
+  "negative": [
+    "add a slash command that triggers the security review",
+    "ajouter un hook qui s'exécute avant chaque commit",
+    "write a skill that runs in the main context to format the output",
+    "je veux juste une skill simple pour valider le SKILL.md",
+    "add a post-stop hook to summarise the session"
+  ]
+}

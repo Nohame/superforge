@@ -1,0 +1,21 @@
+{
+  "positive": [
+    "I want to build a plugin for reviewing PRs automatically",
+    "Let's create a new Claude Code plugin",
+    "je veux créer un plugin pour gérer mes déploiements",
+    "I have an idea for a plugin, not sure where to start",
+    "help me scaffold a plugin for tracking todos",
+    "new plugin idea: something that summarizes Slack threads",
+    "je veux faire un plugin, l'idée c'est de faciliter les code reviews",
+    "I want to make a plugin but I don't know what skills it needs",
+    "can we build a plugin together for onboarding new devs?",
+    "j'aimerais qu'on conçoive un plugin pour automatiser mes retros"
+  ],
+  "negative": [
+    "Write the SKILL.md for the deploy-check skill",
+    "create the plugin.json manifest for the pr-review plugin",
+    "I already have the spec, now let's design the skill architecture",
+    "add a hook that runs before every commit in my plugin",
+    "publish my plugin to the marketplace"
+  ]
+}

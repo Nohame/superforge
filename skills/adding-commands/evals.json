@@ -1,0 +1,21 @@
+{
+  "positive": [
+    "I want to add a /deploy slash command to my plugin",
+    "create a slash command that runs our standard code review prompt",
+    "je veux ajouter une commande /standup qui génère mon rapport quotidien",
+    "I want to type /summarize and have it summarize the current PR",
+    "expose this repeated prompt as a /checklist command",
+    "add a /retro command to my plugin",
+    "I keep typing the same prompt to start a review — can we make it a /command?",
+    "comment créer une slash command /deploy dans mon plugin ?",
+    "I want /foo to inject a pre-written prompt about error handling",
+    "make a /onboard command that walks through our onboarding checklist"
+  ],
+  "negative": [
+    "add a hook that runs before every git commit",
+    "I want to add a sub-agent specialized in security reviews",
+    "write the SKILL.md for the deploy-check skill",
+    "ajoute un hook post-commit pour envoyer une notification",
+    "create a new sub-agent for handling database migrations"
+  ]
+}

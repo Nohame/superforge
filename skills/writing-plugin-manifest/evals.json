@@ -1,0 +1,21 @@
+{
+  "positive": [
+    "write the manifest for this plugin",
+    "create plugin.json based on the architecture",
+    "set up the .claude-plugin folder",
+    "let's scaffold the repo now that we have the architecture",
+    "generate the plugin manifest files",
+    "crée le fichier plugin.json",
+    "mets en place le dossier .claude-plugin",
+    "l'architecture est prête, on peut créer le manifest",
+    "initialise la structure du plugin avec plugin.json",
+    "scaffold the plugin now, the ARCHITECTURE.md is done"
+  ],
+  "negative": [
+    "write the SKILL.md for the brainstorming skill",
+    "let's brainstorm what the plugin should do",
+    "publish the plugin to the marketplace",
+    "on est encore en phase de brainstorming",
+    "rédige la description de cette skill individuelle"
+  ]
+}

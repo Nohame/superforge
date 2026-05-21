@@ -1,0 +1,21 @@
+{
+  "positive": [
+    "I have the SPEC.md, let's design the skills now",
+    "what skills do we need for this plugin?",
+    "how should I structure this plugin?",
+    "la spec est prête, on peut décomposer en skills maintenant",
+    "break this down into skills and hooks",
+    "let's design the skill architecture",
+    "which parts should be skills vs hooks vs sub-agents?",
+    "j'ai mon SPEC.md, comment on structure le plugin en artefacts?",
+    "now that the spec is done, let's map the workflow phases to skills",
+    "quelles phases deviennent des skills, lesquelles des hooks?"
+  ],
+  "negative": [
+    "I don't have a spec yet, let's brainstorm the plugin idea",
+    "on n'a pas encore de spec, je veux juste explorer l'idée",
+    "write the SKILL.md for the analyzing-diff skill",
+    "j'écris déjà le SKILL.md, aide-moi à rédiger la description",
+    "let's publish the plugin to the marketplace"
+  ]
+}

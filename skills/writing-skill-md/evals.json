@@ -1,0 +1,20 @@
+{
+  "positive": [
+    "Write the SKILL.md for the deploying-to-production skill",
+    "Add a skill that handles git branch creation",
+    "Let's create the next skill in the pipeline",
+    "Edit the description of skill brainstorming-plugin to improve its triggers",
+    "Improve this skill's triggers — it's not activating reliably",
+    "Rédige le SKILL.md pour la skill de revue de code",
+    "Ajoute une skill qui gère la publication vers npm",
+    "Réécris la description de cette skill, elle est trop vague",
+    "Améliore les triggers du fichier SKILL.md de writing-plugin-manifest",
+    "The body of this SKILL.md is too long, help me refactor it"
+  ],
+  "negative": [
+    "Write the plugin.json manifest for my new plugin",
+    "Run the trigger tests to validate my skill activates correctly",
+    "Publish the plugin to the marketplace",
+    "Does this skill description trigger correctly? Let's test it"
+  ]
+}

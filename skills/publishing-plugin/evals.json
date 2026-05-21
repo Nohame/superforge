@@ -1,0 +1,21 @@
+{
+  "positive": [
+    "let's publish the plugin, everything is ready",
+    "ship the plugin, we're done building it",
+    "release v1 of the plugin",
+    "how do I distribute this plugin to other people?",
+    "make the plugin installable via the marketplace",
+    "set up the marketplace listing for our plugin",
+    "le plugin est terminé, comment je le publie?",
+    "je veux mettre le plugin en ligne",
+    "comment je distribue ce plugin à mon équipe?",
+    "on est prêt à releaser, guide-moi pour la publication"
+  ],
+  "negative": [
+    "let's brainstorm what the plugin should do",
+    "I'm still writing the SKILL.md for the deploy skill",
+    "test whether the triggers fire correctly",
+    "on est encore en train de concevoir l'architecture",
+    "create the plugin.json manifest based on the architecture"
+  ]
+}

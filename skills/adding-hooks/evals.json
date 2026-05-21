@@ -1,0 +1,21 @@
+{
+  "positive": [
+    "add a hook to block the agent from pushing to main",
+    "enforce that tests always run before any commit",
+    "prevent the agent from deleting files in the production directory",
+    "make sure the agent can never write to .env files",
+    "ajoute un hook qui bloque toute écriture dans src/migrations/",
+    "je veux que l'agent ne puisse jamais contourner cette règle, même sous pression",
+    "block the agent from calling the Bash tool with rm -rf",
+    "enforce a hard rule: no file can be modified without a corresponding test file existing",
+    "assure-toi mécaniquement que npm run lint passe avant chaque modification de fichier source",
+    "the SPEC.md lists a hard rule — the agent must not bypass it, wire it into a PreToolUse hook"
+  ],
+  "negative": [
+    "add a slash command that runs the test suite",
+    "ajoute un sous-agent spécialisé pour la revue de code",
+    "write a reminder in the SKILL.md that the agent should run tests before committing",
+    "create a sub-agent that monitors deployments and sends alerts",
+    "add a best-practice note suggesting the agent avoids force-pushing"
+  ]
+}

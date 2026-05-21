@@ -1,0 +1,20 @@
+{
+  "positive": [
+    "test the triggers for this skill",
+    "does this skill activate on 'deploy to prod'?",
+    "validate the skill description",
+    "let's evaluate the skill before committing",
+    "I just finished writing the SKILL.md, should I test it?",
+    "tester les triggers de cette skill",
+    "est-ce que cette skill s'active sur ce prompt ?",
+    "valider les triggers avant de commit",
+    "build an eval set for the new skill",
+    "check whether the skill description would activate correctly"
+  ],
+  "negative": [
+    "write the SKILL.md for the deploy skill",
+    "rédige le SKILL.md de la skill publishing-plugin",
+    "publish the plugin to the marketplace",
+    "create a new skill from scratch"
+  ]
+}
