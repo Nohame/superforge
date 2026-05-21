@@ -1,4 +1,10 @@
 {
-  "_comment": "Optional. Uncomment and add scripts under hooks/ to enforce doctrine. Example: block writing a SKILL.md whose description doesn't start with 'Use this skill'.",
-  "hooks": {}
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "command": "$CLAUDE_PROJECT_DIR/hooks/check-skill-description.sh"
+      }
+    ]
+  }
 }
