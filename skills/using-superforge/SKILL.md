@@ -43,3 +43,13 @@ methodology is the product; the file structure is the wrapper. Most failures
 come from skipping the methodology and over-investing in the wrapper.
 
 Read `CLAUDE.md` at the repo root for the full doctrine.
+
+## Platform adaptation
+
+Skills use Claude Code tool names. If you are on a different platform, see
+the relevant reference file:
+
+- **Codex** → `skills/using-superforge/references/codex-tools.md`
+
+The skills themselves are platform-neutral. Only tool names and the hook
+enforcement differ.
