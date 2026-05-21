@@ -1,0 +1,16 @@
+{
+  "name": "superforge",
+  "version": "0.1.0",
+  "description": "An agentic skills framework for forging Claude Code plugins in the Superpowers style. Guides the user from idea to published plugin through composable, auto-triggering skills.",
+  "author": "Nohame Belkaid",
+  "homepage": "https://github.com/nohame/superforge",
+  "license": "MIT",
+  "keywords": [
+    "plugin",
+    "scaffolding",
+    "skills",
+    "superpowers",
+    "meta",
+    "claude-code"
+  ]
+}

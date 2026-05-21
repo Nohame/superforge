@@ -1,0 +1,4 @@
+{
+  "_comment": "Optional. Uncomment and add scripts under hooks/ to enforce doctrine. Example: block writing a SKILL.md whose description doesn't start with 'Use this skill'.",
+  "hooks": {}
+}
