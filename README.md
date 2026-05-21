@@ -14,14 +14,26 @@ software*, superforge is a methodology for *writing plugins*.
 
 [sp]: https://github.com/obra/superpowers
 
+## Install
+
+### Via marketplace
+
+```
+/plugin marketplace add nohame/superforge
+/plugin install superforge@superforge-marketplace
+```
+
+### Direct from GitHub
+
+```
+/plugin install github:nohame/superforge
+```
+
 ## Quickstart
 
-```bash
-# Install via the superforge marketplace
-/plugin marketplace add nohame/superforge
-/plugin install superforge@superforge
+Once installed, just talk to your agent:
 
-# Then just talk to your agent
+```
 "I want to build a plugin that helps me review pull requests"
 ```
 
