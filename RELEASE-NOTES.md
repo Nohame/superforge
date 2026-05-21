@@ -1,5 +1,17 @@
 # Release Notes
 
+## 0.1.1 — 2026-05-21
+
+### Added
+
+- Multi-platform support: Codex (`.codex-plugin/`), Cursor (`.cursor-plugin/`),
+  Gemini CLI (`GEMINI.md`).
+- `skills/using-superforge/references/codex-tools.md` — tool name mapping,
+  subagent config, and command equivalents for Codex users.
+- Platform table in README with per-platform install instructions.
+
+---
+
 ## 0.1.0 — 2026-05-21
 
 Initial release.

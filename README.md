@@ -4,8 +4,8 @@
 > Superpowers style. A meta-plugin: a plugin that helps you build plugins.
 
 Superforge takes you from "I have an idea for a plugin" to a published,
-marketplace-ready Claude Code plugin — without you having to remember the
-boilerplate, the manifest schema, or the trigger-writing heuristics.
+marketplace-ready plugin — without you having to remember the boilerplate,
+the manifest schema, or the trigger-writing heuristics.
 
 It's deliberately modelled on [obra/superpowers][sp] : a composable library
 of skills that auto-trigger at the right moment, plus a strict doctrine
@@ -14,19 +14,44 @@ software*, superforge is a methodology for *writing plugins*.
 
 [sp]: https://github.com/obra/superpowers
 
+## Platforms
+
+| Platform | Status | Notes |
+|----------|--------|-------|
+| Claude Code | ✅ Full support | Skills + hooks + slash commands |
+| Codex | ✅ Skills | Hook enforcement advisory only — see `skills/using-superforge/references/codex-tools.md` |
+| Cursor | ✅ Skills | Hook enforcement advisory only |
+| Gemini CLI | ✅ Skills | Via `GEMINI.md` entry point |
+
 ## Install
 
-### Via marketplace
+### Claude Code — via marketplace
 
 ```
 /plugin marketplace add nohame/superforge
 /plugin install superforge@superforge-marketplace
 ```
 
-### Direct from GitHub
+### Claude Code — direct from GitHub
 
 ```
 /plugin install github:nohame/superforge
+```
+
+### Codex
+
+Clone the repo and point your Codex config at the `skills/` directory,
+or follow the instructions in your Codex plugin registry.
+See `skills/using-superforge/references/codex-tools.md` for the tool
+name mapping and subagent configuration.
+
+### Gemini CLI
+
+Place `GEMINI.md` (or a symlink) in your project root, or add the
+following line to your existing `GEMINI.md`:
+
+```
+@path/to/superforge/skills/using-superforge/SKILL.md
 ```
 
 ## Quickstart
